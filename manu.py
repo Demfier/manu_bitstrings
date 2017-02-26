@@ -113,10 +113,11 @@ def fibonacci(n):
 if __name__ == '__main__':
     # Driver to test the task
     test_cases = raw_input("Enter the number of test cases: ")
+    limit = (10 ** 9) + 7
 
     input_nums = []  # Input array
     for i in range(int(test_cases)):
         input_nums.append(raw_input("Test case_%d: " % i))  # get the test cases
 
     for num in input_nums:
-        print fibonacci(int(num) + 2)
+        print (fibonacci(int(num) + 2) % limit)  # since the number of strings can be very large
