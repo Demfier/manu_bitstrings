@@ -28,3 +28,6 @@ Which is nothing but the very familiar __fibonacci sequence!__
 ---
 
 Just run the file with command <code>python manu.py</code> and see the results.
+
+You can have a look here: <br>
+![test](imgs/test_img.png)
