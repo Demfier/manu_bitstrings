@@ -1,9 +1,10 @@
 # manu_bitstrings
 Find all bit strings with no consecutive 0s
 -------------------------------------------------------------------
-The solution to above problem is Nth term of the fibonacci sequence.
-This can be derived as:
+The solution to above problem is __Nth term of the fibonacci sequence__.
 
+## Explanation:
+---
 Suppose A represents all even bit strings (i.e ending with 0)
 Suppose B represents all odd bit strings (i.e ending with 1)
 
@@ -18,7 +19,12 @@ Following above statement:
 
 We get out recurrence relation as:
 
-A(n) = A(n -1) + B(n -1)
+A(n) = A(n -1) + B(n -1)<br>
 B(n) = A(n - 1)
 
-Which is nothing but the very familiar fibonacci sequence!
+Which is nothing but the very familiar __fibonacci sequence!__
+
+## Testing the solution:
+---
+
+Just run the file with command <code>python manu.py</code> and see the results.
