@@ -5,8 +5,8 @@ The solution to above problem is __Nth term of the fibonacci sequence__.
 
 ## Explanation:
 ---
-Suppose A represents all even bit strings (i.e ending with 0)
-Suppose B represents all odd bit strings (i.e ending with 1)
+Suppose A represents all odd bit strings (i.e ending with 1)
+Suppose B represents all even bit strings (i.e ending with 0)
 
 If we don't know the answer and start writing down all possibilities (for say n = 3)
 & represent the three positions of our length-3 bit string as __ __ __ :
